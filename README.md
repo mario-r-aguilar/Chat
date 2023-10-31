@@ -1,6 +1,6 @@
 # CAB Chat
 
-(https://cab-chat.glitch.me/)
+https://cab-chat.glitch.me/
 
 ## Observaciones del proyecto
 

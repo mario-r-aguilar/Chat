@@ -1,0 +1,35 @@
+{
+	"name": "cab-chat",
+	"version": "1.0.0",
+	"description": "Chat que funciona mediante websocket",
+	"main": "app.js",
+	"type": "module",
+	"engines": {
+		"node": "20.9"
+	},
+	"scripts": {
+		"start": "node src/app.js",
+		"dev": "nodemon src/app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"websocket",
+		"chat",
+		"bootstrap",
+		"javascript",
+		"handlebars",
+		"socket.io",
+		"express",
+		"node.js"
+	],
+	"author": "Mario Aguilar",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^3.0.1"
+	},
+	"dependencies": {
+		"express": "^4.18.2",
+		"express-handlebars": "^7.1.2",
+		"socket.io": "^4.7.2"
+	}
+}

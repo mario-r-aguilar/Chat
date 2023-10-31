@@ -2,7 +2,7 @@
 	"name": "cab-chat",
 	"version": "1.0.0",
 	"description": "Chat que funciona mediante websocket",
-	"main": "app.js",
+	"main": "index.js",
 	"type": "module",
 	"engines": {
 		"node": ">=20.9.0"

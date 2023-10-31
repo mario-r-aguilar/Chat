@@ -19,8 +19,10 @@ app.use('/static', express.static(path.join(__dirname, '/public')));
 
 app.use('/', viewsRouter);
 
-const httpServer = app.listen(8080, () => {
-	console.info('Listening port 8080...');
+const PORT = process.env.PORT || 8080;
+
+const httpServer = app.listen(PORT, () => {
+	console.info('Server listening...');
 });
 
 socketServer(httpServer);

@@ -2,5 +2,5 @@ import { Router } from 'express';
 export const viewsRouter = Router();
 
 viewsRouter.get('/', (req, res) => {
-	res.render('index', { title: 'Chat-CBA' });
+	res.render('index', { title: 'Chat' });
 });

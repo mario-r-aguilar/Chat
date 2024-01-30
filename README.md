@@ -1,11 +1,11 @@
-# CAB Chat
+# Chat
 
-https://cab-chat.glitch.me/
+https://chat-cba.glitch.me/
 
 ## Observaciones del proyecto
 
-Código realizado durante el curso de Programación Backend en conjunto con el profesor.
-Finalizada la clase se incorporaron los estilos y las funcionalidades para dar aviso de
+Código realizado durante el curso de Programación Backend.
+Se incorporaron los estilos y las funcionalidades para dar aviso de
 la conexión de un nuevo usuario y la limitación de la cantidad de mensajes del historial
 que se envían por websocket. Asimismo se corrigió el inconveniente de mostrar el
 historial cuando un nuevo usuario se conectaba solo cuando escribía por primera vez.
